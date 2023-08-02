@@ -1,0 +1,144 @@
+body{
+     background: linear-gradient(to bottom left,rgb(255, 248, 234),rgb(255, 255, 255));
+        background-size: 400% 400%;
+        animation: gradient 10s ease infinite;
+        height: 100vh;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+
+
+
+.bs{
+  box-shadow: 0 0 2px orange;
+}
+.bs:hover{
+    box-shadow: 0 0 10px orange;
+    transition: all 0.4s ease-out
+}
+.te{
+transition: all 0.2s ease-out
+}
+.te:hover{
+    transform: scale(1.03);
+  box-shadow: 0 0 10px rgb(255, 179, 47);
+}
+.ma{
+    margin-top: 4px;
+}
+
+@font-face {
+    font-family: h-1;
+     src: url('Fonts/DMSans-VariableFont_opsz\,wght.ttf');
+  }
+  @font-face {
+    font-family: h-5;
+     src: url('Fonts/Monoton-Regular.ttf');
+  }
+  @font-face {
+    font-family: h-6;
+     src: url('Fonts/Raleway-VariableFont_wght.ttf');
+  }
+
+  @font-face {
+    font-family: h-7;
+     src: url('Fonts/Mina-Bold.ttf');
+  }
+
+
+  .ss-media-ins{
+    border: none;
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+    transition: all 0.5s ease-out;
+
+    background: linear-gradient(to bottom left,rgb(255, 158, 12),rgb(255, 57, 146));
+        background-size: 400% 400%;
+        animation: gradient 10s ease infinite;
+      
+
+  }
+
+  .ss-media-yt{
+    background-color: orange;
+     border: none;
+     border-radius: 100px;
+     width: 35px;
+     height: 35px;
+     transition: all 0.5s ease-out;
+ 
+     background: linear-gradient(to bottom left,rgb(255, 0, 0),rgb(255, 110, 110));
+         background-size: 400% 400%;
+         animation: gradient 10s ease infinite;
+       
+ 
+   }
+   .ss-media-twt{
+    background-color: orange;
+     border: none;
+     border-radius: 100px;
+     width: 35px;
+     height: 35px;
+     transition: all 0.5s ease-out;
+ 
+     background: linear-gradient(to bottom left,rgb(0, 162, 255),rgb(0, 119, 230), rgb(119, 228, 255));
+         background-size: 400% 400%;
+         animation: gradient 10s ease infinite;
+       
+ 
+   }
+  .ss-media-ins:hover{
+    box-shadow: 0 0 10px rgb(255, 166, 23);
+    background-color: rgb(255, 119, 0);
+  }  .ss-media-yt:hover{
+    box-shadow: 0 0 10px rgb(255, 41, 41);
+    background-color: rgb(255, 119, 0);
+  }  .ss-media-twt:hover{
+    box-shadow: 0 0 10px rgb(55, 198, 255);
+   background-color: red;
+  }
+  .t-effect {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#ff891b, #6b6b6b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .t-eff{
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(221, 221, 221),rgb(31, 31, 31));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.b-eff{
+    background: linear-gradient(to bottom left,rgba(255, 202, 128, 0.843),rgb(163, 70, 0));
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+.b2-eff{
+  background: linear-gradient(to bottom left,rgb(255, 171, 74),rgba(247, 247, 247, 0.843));
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+
+
+.m-eff{
+background: linear-gradient(to bottom right,rgb(255, 224, 193), white);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+::selection{
+  background-color: rgba(255, 180, 42, 0.532);
+}
