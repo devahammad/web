@@ -22,8 +22,8 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="4.9166667"
-     inkscape:cx="-9.6610169"
-     inkscape:cy="24"
+     inkscape:cx="-20.847457"
+     inkscape:cy="24.20339"
      inkscape:window-width="1920"
      inkscape:window-height="1080"
      inkscape:window-x="0"
@@ -35,77 +35,77 @@
   <g
      id="_24-Html"
      data-name="24-Html"
-     style="fill:#2998ff;fill-opacity:1"
+     style="fill:#f9a200;fill-opacity:1"
      inkscape:label="_24-Html">
     <path
        d="M43,42H5a5.006,5.006,0,0,1-5-5V13A5.006,5.006,0,0,1,5,8v2a3,3,0,0,0-3,3V37a3,3,0,0,0,3,3H43a3,3,0,0,0,3-3V13a3,3,0,0,0-3-3V8a5.006,5.006,0,0,1,5,5V37A5.006,5.006,0,0,1,43,42Z"
        id="path164"
-       style="fill:#2998ff;fill-opacity:1" />
+       style="fill:#f9a200;fill-opacity:1" />
     <rect
        x="14"
        y="46"
        width="20"
        height="2"
        id="rect166"
-       style="fill:#2998ff;fill-opacity:1" />
+       style="fill:#f9a200;fill-opacity:1" />
     <rect
        x="17"
        y="41"
        width="2"
        height="6"
        id="rect168"
-       style="fill:#2998ff;fill-opacity:1" />
+       style="fill:#f9a200;fill-opacity:1" />
     <rect
        x="29"
        y="41"
        width="2"
        height="6"
        id="rect170"
-       style="fill:#2998ff;fill-opacity:1" />
+       style="fill:#f9a200;fill-opacity:1" />
     <path
        d="M38,34H10a3,3,0,0,1-3-3V12H9V31a1,1,0,0,0,1,1H38a1,1,0,0,0,1-1V3a1,1,0,0,0-1-1H10A1,1,0,0,0,9,3V8H37v2H8A1,1,0,0,1,7,9V3a3,3,0,0,1,3-3H38a3,3,0,0,1,3,3V31A3,3,0,0,1,38,34Z"
        id="path172"
-       style="fill:#2998ff;fill-opacity:1" />
+       style="fill:#f9a200;fill-opacity:1" />
     <path
        d="M9,38H7a3,3,0,0,1-3-3V33H6v2a1,1,0,0,0,1,1H9Z"
        id="path174"
-       style="fill:#2998ff;fill-opacity:1" />
+       style="fill:#f9a200;fill-opacity:1" />
     <rect
        x="11"
        y="36"
        width="2"
        height="2"
        id="rect176"
-       style="fill:#2998ff;fill-opacity:1" />
+       style="fill:#f9a200;fill-opacity:1" />
     <rect
        x="11"
        y="4"
        width="2"
        height="2"
        id="rect178"
-       style="fill:#2998ff;fill-opacity:1" />
+       style="fill:#f9a200;fill-opacity:1" />
     <rect
        x="15"
        y="4"
        width="2"
        height="2"
        id="rect180"
-       style="fill:#2998ff;fill-opacity:1" />
+       style="fill:#f9a200;fill-opacity:1" />
     <rect
        x="19"
        y="4"
        width="2"
        height="2"
        id="rect182"
-       style="fill:#2998ff;fill-opacity:1" />
+       style="fill:#f9a200;fill-opacity:1" />
     <path
        d="M18.293,23.707l-5-5a1,1,0,0,1,0-1.414l5-5,1.414,1.414L15.414,18l4.293,4.293Z"
        id="path184"
-       style="fill:#2998ff;fill-opacity:1" />
+       style="fill:#f9a200;fill-opacity:1" />
     <path
        d="M29.707,23.707l-1.414-1.414L32.586,18l-4.293-4.293,1.414-1.414,5,5a1,1,0,0,1,0,1.414Z"
        id="path186"
-       style="fill:#2998ff;fill-opacity:1" />
+       style="fill:#f9a200;fill-opacity:1" />
     <rect
        x="18.615"
        y="17"
@@ -113,13 +113,13 @@
        height="2"
        transform="translate(-1.62 33.608) rotate(-68.219)"
        id="rect188"
-       style="fill:#2998ff;fill-opacity:1" />
+       style="fill:#f9a200;fill-opacity:1" />
     <rect
        x="12"
        y="28"
        width="24"
        height="2"
        id="rect190"
-       style="fill:#2998ff;fill-opacity:1" />
+       style="fill:#f9a200;fill-opacity:1" />
   </g>
 </svg>

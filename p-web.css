@@ -40,8 +40,9 @@ transition: all 0.2s ease-out
 
 @font-face {
     font-family: h-1;
-     src: url('Fonts/DMSans-VariableFont_opsz\,wght.ttf');
+     src: url('Fonts/texgyreadventor-regular.otf');
   }
+
   @font-face {
     font-family: h-5;
      src: url('Fonts/Monoton-Regular.ttf');
@@ -141,4 +142,36 @@ background: linear-gradient(to bottom right,rgb(255, 224, 193), white);
 }
 ::selection{
   background-color: rgba(255, 180, 42, 0.532);
+}
+
+
+section{
+  overflow: hidden;
+ 
+}
+.l-img{
+
+}
+@media (min-width: 768px) {
+  .l-img {
+    margin-left: 1em;
+    width: 350px;
+  }
+}
+@media (min-width: 767px) {
+  .fbx {
+  height: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .r-crd {
+  width: 350px;
+ 
+  }
+}
+@media (max-width: 767px) {
+  .l-para {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
