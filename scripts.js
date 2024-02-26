@@ -21,7 +21,7 @@
             },
             success: function(data) {
                 if (data.ok) {
-                    showAlert('Form submitted successfully!');
+                    showAlert('Thank You ❤️ (Reply will be added before 11pm)');
                     // Clear form fields
                     $('#message').val('');
                 } else {
