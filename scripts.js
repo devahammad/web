@@ -29,8 +29,7 @@
                 }
             },
             error: function() {
-                showAlert(' oops! an error occured 😬 
-                    try changing the size of your message or check you internet connection and try again! ');
+                showAlert(' oops! an error occured 😬 try changing the size of your message or check you internet connection and try again! ');
             }
         });
     });
