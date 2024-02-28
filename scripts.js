@@ -29,7 +29,7 @@
                 }
             },
             error: function() {
-                showAlert('An error occurred while submitting the form.');
+                showAlert('The message your trying to send is too big, reduce the size');
             }
         });
     });
