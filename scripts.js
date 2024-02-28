@@ -29,7 +29,7 @@
                 }
             },
             error: function() {
-                showAlert('The message your trying to send is too big, reduce the size');
+                showAlert(' oops! an error occured 😬 <br> try changing the size of your message or check you internet connection and try again! ');
             }
         });
     });
