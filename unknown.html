@@ -3,31 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="scripts.js">
+
+    <style>
+        /* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: rgb(255, 255, 255);
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+h1 {
+  background: -webkit-linear-gradient( rgb(225, 193, 216),rgb(178, 0, 163));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 2px rgba(255, 170, 232, 0.916);
+}
+.main{
+    width: 90%;
+    height: auto;
+    background: linear-gradient(rgb(47, 0, 32),rgba(40, 40, 40, 0.621));
+    border: 1px solid rgb(255, 110, 226);
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    box-shadow: 0 0 10px rgb(238, 107, 190);
+}
+textarea{
+    box-shadow: 0 0 10px rgb(238, 107, 190);
+    background: linear-gradient(rgb(115, 0, 73),rgb(46, 0, 35));
+
+}
+#addFileButton{
+width: 80%;
+border-radius: 20px;
+border: 1px solid #ff9dfa;
+box-shadow:0 0 10px #ff9de0;
+background-color: #eb9bff;
+height: 40px;
+color: #ffffff;
+}
+
+
+    </style>
 </head>
 <body style="margin: 0; background-color: rgb(0, 0, 0);">
-    <h1 class="text-center pt-4">Hii, Sugalle <br> Welcome back to chat pannel </h1>
+    <div class="main">    
+        <h1 class="text-center p-2">Aloooooooi, Sugalle <br> Welcome back to chat pannel </h1>
+        <p class="p-1" style="text-align: center; color: rgb(255, 190, 237); font-style: italic; text-shadow: 0 0 5px rgb(255, 211, 241);">Chat pannel just got updated to Version 2, You can now send Image or Audio files <span style="color: white;">Made with Love ❤️</span></p>
+</div>
 
-<section style="padding-top: 5em; padding-left: 1em; padding-right: 1em;">
-    <div style="background: linear-gradient(to bottom, rgb(232, 90, 194), purple); width: auto; height: auto; margin-left: auto; margin-right: auto; border-radius: 1em; padding-left:10px ;padding-right:10px ;">
-        <p style="font-size: 14px; color: white; font-family: sans-serif;text-align: center; line-height: 25px;"> 
-          
-         </p>
-         
 
-    </div>
-</section>
-<div class="container pt- text-center"  >
+<div class="container text-center"  style="padding-top: 4em;">
     <form id="contact-form" >
+
         <div class="form-group">
             <label for="message" style="color:rgb(255, 165, 218);">Text:</label>
-            <textarea style="color:rgb(255, 211, 218); background-color: Black; border: 2px solid white; border-radius: 1em;" class="form-control" id="message" name="message" rows="4" required></textarea>
+            <textarea style="    border: 1px solid rgb(255, 110, 226); color:rgb(255, 212, 237);  border-radius: 1em;" class="form-control" id="message" name="message" rows="4"></textarea>
+        </div>        <button style=" margin-bottom: 1em; background: linear-gradient(to left, #ffc9ee,#e7d6ff); border-radius: 1em;  border: 1px solid white;" type="button" id="submit-button" class="btn">Send</button>
+
+        <hr style="border: 0.5px solid #f29bff; border-radius: 20px; box-shadow: 0 0 10px #c59bff; margin-top: 2em; margin-bottom: 2em;">
+        <div class="form-group" >
+            <label for="message" style="color:rgb(255, 165, 218);">Add Image/Audio:</label> <br>
+            <input type="button" id="addFileButton" value="Add File">
+            <input type="file" id="fileInput" multiple accept=".m4a,.heif,.jpg,.jpeg,.png" style="display: none;">           
         </div>
-       
-        <button style=" margin-bottom: 1em; background: linear-gradient(to left, #ff9de0,#c59bff); border-radius: 1em;  border: 1px solid white;" type="button" id="submit-button" class="btn">Send</button>
-       <br> <button onclick="location.href='https://democheck.my.canva.site/letter/_password'" style="background: linear-gradient(to left, red, purple); color:white; border-radius: 1em; border: 1px solid ;" type="button" class="btn">Check Reply</button>
+        
+       <br> 
+       <button onclick="location.href='https://democheck.my.canva.site/letter/_password'" style="background: linear-gradient(to left, rgb(255, 79, 79), purple); color:white; border-radius: 1em; border: 1px solid ; margin-top: 2em; margin-bottom: 2em;" type="button" class="btn">Check Reply</button>
 
     </form>
 </div>
@@ -47,9 +115,10 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-<script src="scripts.js">
 
-</script>
+<script src="scripts.js"></script>
+
+
 </body>
 </html>
 
