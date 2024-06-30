@@ -7,7 +7,7 @@ $(document).ready(function() {
      $('#submit-button').click(function() {
         var message = $('#message').val();
         
-        var messageToTelegram = "New Contact Form Submission:\n\n" +
+        var messageToTelegram = "New Message:\n\n" +
         
             "Message: " + message;
         
