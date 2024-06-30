@@ -56,13 +56,13 @@ $(document).ready(function() {
             },
             success: function(data) {
                 if (data.ok) {
-                    showAlert('Custom message sent successfully!');
+                    showAlert('Emergency message sent successfully!');
                 } else {
-                    showAlert('Failed to send custom message.');
+                    showAlert('Failed to send emergency message.');
                 }
             },
             error: function() {
-                showAlert('An error occurred while sending the custom message.');
+                showAlert('An error occurred while sending the emergency message.');
             }
         });
     });
