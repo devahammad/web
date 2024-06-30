@@ -41,7 +41,7 @@ $(document).ready(function() {
     $('#custom-message-button').click(function() {
         var customMessage = "Cannot send message now, under emergency condition";
         
-        var messageToTelegram = "Emergency Message:\n\n" + customMessage;
+        var messageToTelegram = "Emergency Condition!\n\n" + customMessage;
         
         // Replace with your Telegram bot API endpoint for sending messages
         var telegramApiUrl = 'https://api.telegram.org/bot' + botToken + '/sendMessage';
