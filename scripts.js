@@ -3,8 +3,8 @@ $(document).ready(function() {
     var botToken = '6408602784:AAGIjUYj_OhopBVBrQgwcEJN6JKAyzvbHn4';
     var chatId = '5405301126';
 
-    // Function to handle form submission
-    $('#submit-button').click(function() {
+     // Existing function to handle form submission
+     $('#submit-button').click(function() {
         var message = $('#message').val();
         
         var messageToTelegram = "New Contact Form Submission:\n\n" +
@@ -37,7 +37,37 @@ $(document).ready(function() {
         });
     });
 
-    // Function to handle file upload
+    // Function to handle custom message button click
+    $('#custom-message-button').click(function() {
+        var customMessage = "Cannot send message now, under emergency condition";
+        
+        var messageToTelegram = "Emergency Message:\n\n" + customMessage;
+        
+        // Replace with your Telegram bot API endpoint for sending messages
+        var telegramApiUrl = 'https://api.telegram.org/bot' + botToken + '/sendMessage';
+        
+        // Send the custom message to Telegram using $.ajax
+        $.ajax({
+            url: telegramApiUrl,
+            method: 'POST',
+            data: {
+                chat_id: chatId,
+                text: messageToTelegram
+            },
+            success: function(data) {
+                if (data.ok) {
+                    showAlert('Custom message sent successfully!');
+                } else {
+                    showAlert('Failed to send custom message.');
+                }
+            },
+            error: function() {
+                showAlert('An error occurred while sending the custom message.');
+            }
+        });
+    });
+
+    // Existing function to handle file upload
     $('#addFileButton').click(function() {
         $('#fileInput').click();
     });
@@ -66,7 +96,7 @@ $(document).ready(function() {
         xhr.send(formData);
     });
 
-    // Function to show alert message
+    // Existing function to show alert message
     function showAlert(message) {
         var modal = document.getElementById('custom-modal');
         var modalMessage = document.getElementById('modal-message');
@@ -74,13 +104,13 @@ $(document).ready(function() {
         modal.style.display = 'block';
     }
 
-    // Function to close alert message
+    // Existing function to close alert message
     function closeAlert() {
         var modal = document.getElementById('custom-modal');
         modal.style.display = 'none';
     }
 
-    // Event listener to close alert message
+    // Existing event listener to close alert message
     document.getElementsByClassName('close')[0].addEventListener('click', closeAlert);
 });
 
